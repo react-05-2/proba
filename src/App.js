@@ -21,9 +21,7 @@ export default function App() {
   return (
     <div>
       Some data:
-      <ul>
-        <First list={list.map(item => item.toLowerCase())} />
-      </ul>
+      <First list={list.map(item => item.toLowerCase())} />
     </div>
   );
 }

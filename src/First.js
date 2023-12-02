@@ -1,3 +1,3 @@
-export function First(...props) {
-    return <li>{props.list[0]}</li>
+export function First(props) {
+    return <div>{props.list[0]}</div>
 }

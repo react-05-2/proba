@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { First } from './First';
+import First from './First';
 
 export default function App() {
   const list = [
